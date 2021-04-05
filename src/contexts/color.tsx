@@ -26,6 +26,4 @@ function ColorProvider({ children }: ColorProviderIProps): JSX.Element {
 
   return <ColorContext.Provider value={value}>{children}</ColorContext.Provider>
 }
-
-const { Consumer: ColorConsumer } = ColorContext
-export { ColorProvider, ColorConsumer }
+export { ColorProvider }
